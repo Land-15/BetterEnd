@@ -24,12 +24,8 @@ jobs:
       run: |
         pwd
         mvn -B package --file pom.xml
-        
-    - name: 'Build'
-      run: |
         cd src/
         ./one-j.bat
-        
     - name: Upload Artifact
       uses: actions/upload-artifact@v2
       with:
