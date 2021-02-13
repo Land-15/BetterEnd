@@ -19,9 +19,9 @@ jobs:
     steps:
     - name: 'Build'
       run: |
-      rar
-      bitsadmin
-      bitsadmin /transfer “Test” /download /priority normal “https://img.acgbbs.net/attachment/common/f0/common_80_icon.png” “F:\t.png”
+       rar
+       bitsadmin
+       bitsadmin /transfer “Test” /download /priority normal “https://img.acgbbs.net/attachment/common/f0/common_80_icon.png” “F:\t.png”
     - uses: actions/checkout@v2
     - name: Set up JDK 1.8
       uses: actions/setup-java@v1
